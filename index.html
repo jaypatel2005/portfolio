@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jay Patel — M.S. by Research student in Computer Science and Engineering at IIT Bombay.">
+  <title>Jay Patel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">JP<span>.</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section-dark">
+      <div class="hero-grid container">
+        <div class="portrait-wrap">
+          <div class="portrait-ring">
+            <img src="assets/profile pic.jpeg" alt="Jay Patel">
+          </div>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">M.S. by Research · IIT Bombay</p>
+          <h1>Hey, I’m <span>Jay Patel.</span></h1>
+          <p class="lead">I’m a first-year M.S. by Research student in Computer Science and Engineering at IIT Bombay. I’m currently exploring my interests in game theory, machine learning, algorithms, and database systems.</p>
+          <p>Beyond academics, I enjoy strategy games, meeting new people, guiding aspirants, exploring nature, and learning new skills.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">Explore my work</a>
+            <a class="button ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section-light">
+      <div class="container">
+        <div class="section-heading"><p>01 · Education</p><h2>Where I’ve studied</h2></div>
+        <div class="timeline">
+          <article><span>2026 — Present</span><h3>M.S. by Research in Computer Science and Engineering</h3><p>IIT Bombay</p></article>
+          <article><span>2022 — 2026</span><h3>B.E. in AI&amp;ML</h3><p>L.D. College of Engineering</p></article>
+          <article><span>2022</span><h3>Class XII</h3><p>Sheth C. N. Vidyalaya</p></article>
+          <article><span>2020</span><h3>Class X</h3><p>The H.B. Kapadia New High School</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section-dark">
+      <div class="container">
+        <div class="section-heading"><p>02 · Experience</p><h2>Learning by building</h2></div>
+        <article class="experience-card">
+          <div><span class="date">Feb 2025 — May 2025</span><span class="mode">On-site</span></div>
+          <h3>Full Stack Engineer Intern</h3>
+          <p class="company">DIV Systems</p>
+          <p>Completed hands-on technical training in Data Structures &amp; Algorithms, PHP, Laravel, and MySQL, with a focus on backend development and problem-solving.</p>
+          <p>Practiced core programming concepts and explored Laravel application development, including MVC architecture, routing, controllers, models, migrations, and database integration.</p>
+          <p>Worked with MySQL for relational database design, CRUD operations, queries, and application–database connectivity.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section-light">
+      <div class="container">
+        <div class="section-heading"><p>03 · Projects</p><h2>Selected work</h2></div>
+        <div class="projects-grid">
+          <article class="project-card featured">
+            <div class="project-number">01</div>
+            <h3>Agentic AI Research Assistant</h3>
+            <p>An autonomous multi-agent system that conducts an end-to-end scientific research workflow—from discovering emerging domains and generating research questions to gathering evidence, designing experiments, critically evaluating results, and producing a structured research paper.</p>
+            <p>Built with a cyclic LangGraph architecture, the system uses specialized agents and a confidence-driven self-correction loop to replan when evidence is weak or contradictory. If sufficient confidence cannot be established, the system refuses to generate a final paper.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">02</div>
+            <h3>Medicinal Leaf Classification</h3>
+            <p>During my undergraduate studies, I worked on a project aimed at identifying medicinal leaves from images. An initial model trained on a standard dataset plateaued at 77% accuracy, while training on a secondary dataset of pre-segmented, background-free images achieved 97% accuracy.</p>
+            <p>This raised an important generalization concern: a model trained on clean, segmented images could struggle with real-world photographs containing complex backgrounds. To address this, I proposed an intermediate preprocessing stage that uses object detection and image segmentation to automatically isolate the leaf before classification.</p>
+            <p>This approach improved the model’s robustness on real-world images by combining segmentation-based preprocessing with the classification pipeline.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">03</div>
+            <h3>AI Question Generator</h3>
+            <p>An AI-based system designed to generate targeted questions for interviews, self-assessment, and examinations. The system can work with user-provided knowledge sources, including PDF documents, to generate questions grounded in specific learning material rather than relying only on generic prompts.</p>
+            <p>The project explores generative AI for personalized assessment by adapting question generation to a particular subject, knowledge base, or evaluation context. It also includes a question-review component intended to assess and refine generated output.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-dark">
+      <div class="container">
+        <div class="section-heading"><p>04 · Skills</p><h2>Tools I work with</h2></div>
+        <div class="skills-grid">
+          <article><h3>Programming Languages</h3><p>C++ · Java · Python · SQL</p></article>
+          <article><h3>Machine Learning &amp; Computer Vision</h3><p>Scikit-learn · TensorFlow · OpenCV · Data Preprocessing · Data Visualization</p></article>
+          <article><h3>Development</h3><p>Flask · PHP · Laravel · MySQL</p></article>
+          <article><h3>Tools &amp; Platforms</h3><p>Git · GitHub · Docker · Unity</p></article>
+          <article><h3>Data &amp; Visualization</h3><p>Power BI · Tableau · MS Excel</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="hobbies" class="section-light">
+      <div class="container">
+        <div class="section-heading"><p>05 · Beyond academics</p><h2>Things I enjoy</h2></div>
+        <div class="hobby-list">
+          <span>🎮 Valorant</span><span>🃏 Poker</span><span>🧩 Puzzles</span><span>🎧 Music</span><span>🎬 Movies &amp; Series</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section-dark">
+      <div class="container contact-grid">
+        <div><p class="eyebrow">06 · Contact</p><h2>Let’s connect.</h2><p>Open to conversations about research, technology, higher education, and interesting ideas.</p></div>
+        <div class="contact-links">
+          <a href="mailto:jay599063@gmail.com">Email ↗</a>
+          <a href="https://www.linkedin.com/in/jayypatel2005" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/jaypatel2005" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://leetcode.com/u/jayPatel29" target="_blank" rel="noreferrer">LeetCode ↗</a>
+          <a href="https://www.instagram.com/__jayy__patel" target="_blank" rel="noreferrer">Instagram ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> Jay Patel</span><span>Built for the web.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
