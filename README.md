@@ -10,7 +10,3 @@ python -m http.server 8000
 ```
 
 Then visit `http://localhost:8000`.
-
-## Important
-- Replace `assets/profile.jpg` with a higher-resolution portrait when available.
-- All internal asset paths are relative for compatibility with both GitHub Pages and `~username/` hosting.
